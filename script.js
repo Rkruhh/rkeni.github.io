@@ -1,4 +1,3 @@
-
 // --- Fade-in animation ---
 const sections = document.querySelectorAll('.section, .card');
 window.addEventListener('scroll', () => {
@@ -9,17 +8,14 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// --- Dark/Light Toggle ---
+// --- Dark/Light Mode Toggle ---
 const toggleBtn = document.getElementById('theme-toggle');
 if (toggleBtn) {
   const userPref = localStorage.getItem('theme');
-
-  // Load saved theme
   if (userPref === 'dark') {
     document.body.classList.add('dark');
     toggleBtn.textContent = '☀️';
   }
-
   toggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     const isDark = document.body.classList.contains('dark');

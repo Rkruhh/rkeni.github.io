@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rucha Keni | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
@@ -30,48 +30,51 @@
     <img src="assets/profile.jpg" alt="Rucha Keni" class="hero-img" />
     <h1>Hi, I’m Rucha Keni 👋</h1>
     <p class="tagline">MS IT @ UNC Charlotte | QA Automation | Data Analytics | Business Analysis</p>
-    <div class="socials">
-      <a href="mailto:rkeni1@charlotte.edu">📧</a>
-      <a href="https://www.linkedin.com/in/rucha-keni" target="_blank">💼</a>
-      <a href="https://github.com/rkeni" target="_blank">💻</a>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      <a href="https://www.instagram.com/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/rucha-keni" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:rkeni1@charlotte.edu" class="icon"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/rkeni" target="_blank" class="icon"><i class="fab fa-github"></i></a>
     </div>
   </section>
 
-  <!-- About Me -->
+  <!-- About Section -->
   <section id="about" class="section">
     <h2>About Me</h2>
-    <p>
+    <p class="about-text">
       I’m <strong>Rucha Keni</strong>, a curious technologist and Master’s student in <strong>Information Technology</strong> at the
       <strong>University of North Carolina at Charlotte</strong>. With over three years of experience in <strong>Quality Assurance and Automation</strong>,
       I thrive at the intersection of precision, performance, and purpose — ensuring every line of code transforms into a seamless user experience.
     </p>
 
-    <p>
+    <p class="about-text">
       I’m passionate about connecting <strong>technology, data, and strategy</strong> to create systems that don’t just work — they work smarter.
       My journey has taken me from testing large-scale financial applications at <strong>Capgemini</strong> to building automation pipelines
       and analytical dashboards that uncover insights and improve product reliability.
     </p>
 
-    <p>
+    <p class="about-text">
       <strong>Quality Assurance & Automation:</strong> Driven by a detail-oriented mindset, I design and develop test frameworks using
       <strong>Selenium, Appium, Postman, and Jenkins</strong> to deliver high-performing, error-free applications.
       My experiences at <strong>Capgemini</strong> and <strong>BreatheIT Solutions</strong> taught me to see testing as more than finding bugs —
       it’s about building trust in technology.
     </p>
 
-    <p>
+    <p class="about-text">
       <strong>Data Analytics & Engineering:</strong> Data tells stories — and I love translating them into decisions. Using
       <strong>Python, SQL, Power BI, and Snowflake</strong>, I’ve developed dashboards and data pipelines that transform raw information
       into actionable insights, supporting performance optimization and business growth.
     </p>
 
-    <p>
+    <p class="about-text">
       <strong>Business & Analytical Strategy:</strong> With a balance of technical depth and analytical curiosity, I bridge the gap between
       business and technology. I focus on simplifying complexity — turning data patterns into strategies and aligning every solution with measurable business impact.
     </p>
   </section>
 
-  <!-- Skills Section -->
+  <!-- Skills -->
   <section id="skills" class="section">
     <h2>Technical Skills</h2>
     <div class="skill-grid">
@@ -81,27 +84,37 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Featured Projects -->
   <section id="projects" class="section">
-    <h2>Projects</h2>
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/ultopia.png" alt="Ultopia project">
+        <div class="project-content">
+          <h3>Ultopia | BreatheIT Solutions</h3>
+          <p>Developed and tested a holistic lifestyle management app using Selenium, Appium, and FastAPI. Automated key workflows to ensure reliability and scalability.</p>
+        </div>
+      </div>
 
-    <div class="card">
-      <h3>Ultopia | BreatheIT Solutions</h3>
-      <p>Designed and tested a holistic lifestyle app using Selenium, Appium, Node.js, and FastAPI. Implemented automation pipelines for web and mobile consistency.</p>
-    </div>
+      <div class="project-card">
+        <img src="assets/jirrassic.png" alt="Jirrassic project">
+        <div class="project-content">
+          <h3>Jirrassic | Hackathon Winner</h3>
+          <p>Built an AI-powered JIRA assistant using NLP and machine learning to automate ticket creation and improve project tracking efficiency.</p>
+        </div>
+      </div>
 
-    <div class="card">
-      <h3>Jirrassic | Hackathon Winner</h3>
-      <p>Developed an AI-powered JIRA assistant using NLP for smart ticket creation and categorization, improving team efficiency and backlog clarity.</p>
-    </div>
-
-    <div class="card">
-      <h3>Career Buddy</h3>
-      <p>Created a resume reader and LinkedIn integration tool for job seekers to match professionals and deliver AI-based career insights.</p>
+      <div class="project-card">
+        <img src="assets/careerbuddy.png" alt="Career Buddy project">
+        <div class="project-content">
+          <h3>Career Buddy</h3>
+          <p>Created a smart career analysis tool integrating LinkedIn APIs and AI to recommend top professionals and personalized career insights.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact -->
   <section id="contact" class="section">
     <h2>Contact</h2>
     <p>📧 <a href="mailto:rkeni1@charlotte.edu">rkeni1@charlotte.edu</a></p>

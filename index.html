@@ -5,177 +5,244 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rucha Keni | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-  <!-- Navigation -->
-  <header>
-    <nav class="navbar">
-      <a href="#home" class="logo">Rucha Keni</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="resume.html" target="_blank">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
-    </nav>
-  </header>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#" class="logo">Rucha Keni</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="assets/Rucha_Keni_Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+  </nav>
 
   <!-- Hero Section -->
-  <section id="home" class="hero">
+  <section class="hero">
     <img src="assets/profile.jpg" alt="Rucha Keni" class="hero-img" />
     <h1>Hi, I’m Rucha Keni 👋</h1>
-    <p class="tagline">MS IT @ UNC Charlotte | QA Automation | Data Analytics | Business Analysis</p>
+    <p class="tagline">
+      MS IT @ UNC Charlotte | QA Automation | Data Analytics | Business Analysis
+    </p>
 
-    <!-- Social Image Icons (keep your existing links; replace hrefs only if YOU want) -->
     <div class="social-img-row">
-      <a class="circle" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-        <img src="assets/Insta.jpg" alt="Instagram">
+      <a href="https://www.linkedin.com/in/rucha-keni" target="_blank" class="circle">
+        <img src="assets/LinkedIn.png" alt="LinkedIn" />
       </a>
-      <a class="circle" href="https://www.linkedin.com/in/rucha-keni" target="_blank" rel="noreferrer">
-        <img src="assets/LinkedIn.png" alt="LinkedIn">
+      <a href="mailto:kenirucha21@gmail.com" target="_blank" class="circle">
+        <img src="assets/Gmail.png" alt="Gmail" />
       </a>
-      <a class="circle" href="mailto:rkeni1@charlotte.edu">
-        <img src="assets/Gmail.png" alt="Gmail">
+      <a href="https://github.com/ruchakeni" target="_blank" class="circle">
+        <img src="assets/Github.jpg.webp" alt="GitHub" />
       </a>
-      <a class="circle" href="https://github.com/rkeni" target="_blank" rel="noreferrer">
-        <img src="assets/Github.jpg.webp" alt="GitHub">
+      <a href="https://www.instagram.com/" target="_blank" class="circle">
+        <img src="assets/Insta.jpg" alt="Instagram" />
       </a>
     </div>
   </section>
 
-  <!-- About -->
+  <div class="section-divider"></div>
+
+  <!-- About Section -->
   <section id="about" class="section">
     <h2>About Me</h2>
     <p class="about-text">
-      I’m <strong>Rucha Keni</strong>, a curious tech enthusiast and Master’s student in <strong>Information Technology</strong> at the
-      <strong>University of North Carolina at Charlotte</strong>. Having over three years of experience in <strong>Quality Assurance and Automation</strong>,
-      I am most comfortable where accurancy, efficiency, and purpost intersect where every line of code translates into a seamless user experience.
+      I’m <strong>Rucha Keni</strong>, a curious technologist and Master’s student in
+      <strong>Information Technology</strong> at the
+      <strong>University of North Carolina at Charlotte</strong>. With over three years of experience
+      in <strong>Quality Assurance and Automation</strong>, I thrive at the intersection of precision,
+      performance, and purpose — ensuring every line of code transforms into a seamless user experience.
     </p>
     <p class="about-text">
-      I believe in bringing <strong>technology, data, and strategy</strong> together to make systems that don’t just work, they work smarter.
-      My journey has been from testing large-scale financial applications at <strong>Capgemini</strong> to developing automation frameworks
-      and analytical dashboards that unlock insights, improve product reliability and drive decision making.
+      I’m passionate about connecting <strong>technology, data, and strategy</strong> to create systems
+      that don’t just work — they work smarter. My journey has taken me from testing large-scale
+      financial applications at <strong>Capgemini</strong> to building automation pipelines and
+      analytical dashboards that uncover insights and improve product reliability.
     </p>
     <p class="about-text">
-      <strong>Quality Assurance & Automation:</strong> Detail-oriented and problem solver, I design and develop scalable test frameworks using
-      <strong>Selenium, Appium, Postman, and Jenkins</strong> to offer high-performing, defect-free applications.
-      My work experience at <strong>Capgemini</strong> and <strong>BreatheIT Solutions</strong> taught me to see testing isn't just about finding bugs,
-      it’s about building trust in technology.
+      <strong>Quality Assurance & Automation:</strong> Driven by a detail-oriented mindset, I design and
+      develop test frameworks using <strong>Selenium, Appium, Postman, and Jenkins</strong> to deliver
+      high-performing, error-free applications. My experiences at Capgemini and BreatheIT Solutions
+      taught me to see testing as more than finding bugs — it’s about building trust in technology.
     </p>
     <p class="about-text">
-      <strong>Data Analytics & Engineering:</strong> I believe that Data tells stories and I love translating them into decisions. Using
-      <strong>Python, SQL, Power BI, and Snowflake</strong>, I’ve developed interactive dashboards and data pipelines that transform raw information
-      into actionable insights, supporting performance optimization and business growth.
+      <strong>Data Analytics & Engineering:</strong> Data tells stories — and I love translating them
+      into decisions. Using <strong>Python, SQL, Power BI, and Snowflake</strong>, I’ve developed
+      dashboards and data pipelines that transform raw information into actionable insights, supporting
+      performance optimization and business growth.
     </p>
     <p class="about-text">
-      <strong>Business & Analytical Strategy:</strong> With technical aptitude and analytical passion merged, I bridge the gap between
-      technology solutions and business goals. My focus is to simplify complexity, translate patterns of data into clear cut strategies and align each solution with measurable business advantage.
+      <strong>Business & Analytical Strategy:</strong> With a balance of technical depth and analytical
+      curiosity, I bridge the gap between business and technology. I focus on simplifying complexity —
+      transforming data patterns into strategies, and aligning every solution with measurable business
+      impact.
     </p>
   </section>
 
-  <!-- Skills -->
+  <div class="section-divider"></div>
+
+  <!-- Technical Skills Section -->
   <section id="skills" class="section">
-    <h2>Technical Skills</h2>
-    <div class="skill-grid">
-      <span>Java</span><span>Python</span><span>Selenium</span><span>Appium</span>
-      <span>Postman</span><span>SQL</span><span>FastAPI</span><span>Node.js</span>
-      <span>AWS</span><span>React</span><span>Power BI</span><span>Tableau</span>
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skills-category">
+        <h3>Languages / Frameworks</h3>
+        <div class="skills-grid">
+          <span>Java</span><span>Python</span><span>HTML</span><span>CSS</span>
+          <span>JavaScript</span><span>Next.js</span><span>SQL</span><span>.NET</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Data Science & AI</h3>
+        <div class="skills-grid">
+          <span>Pandas</span><span>NumPy</span><span>Scikit-learn</span>
+          <span>Power BI</span><span>Tableau</span><span>FastAPI</span><span>Vertex AI</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Cloud Tools</h3>
+        <div class="skills-grid">
+          <span>Jenkins</span><span>Azure DevOps</span><span>GitHub Actions</span>
+          <span>AWS</span><span>JIRA</span><span>Confluence</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Cloud & Databases</h3>
+        <div class="skills-grid">
+          <span>AWS (EC2, S3)</span><span>SQL</span><span>MongoDB</span><span>Oracle</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Testing & Automation</h3>
+        <div class="skills-grid">
+          <span>Selenium</span><span>Appium</span><span>Cucumber</span>
+          <span>TestNG</span><span>RestAssured</span><span>Postman</span><span>JMeter</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Interpersonal & Leadership</h3>
+        <div class="skills-grid">
+          <span>Client Demos & BAT Facilitation</span>
+          <span>Mentoring / TA Support</span>
+          <span>Ownership & Adaptability</span>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- Featured Projects -->
+  <div class="section-divider"></div>
+
+  <!-- Projects Section -->
   <section id="projects" class="section">
     <h2>Featured Projects</h2>
     <div class="project-grid">
       <div class="project-card">
-        <img src="assets/ultopia.png" alt="Ultopia project">
+        <img src="assets/ultopia.png" alt="Ultopia Project" />
         <div class="project-content">
-          <h3>Ultopia | BreatheIT Solutions</h3>
-          <p>Developed and tested a holistic lifestyle management app using Selenium, Appium, and FastAPI. Automated key workflows to ensure reliability and scalability.</p>
+          <h3>Ultopia</h3>
+          <p>
+            A holistic lifestyle management app developed with BreatheIT Solutions. Includes
+            personalized recommendations, journal insights, AI-based analytics, and goal tracking.
+          </p>
         </div>
       </div>
+
       <div class="project-card">
-        <img src="assets/jirrassic.png" alt="Jirrassic project">
+        <img src="assets/jirrassic.png" alt="Jirrassic Project" />
         <div class="project-content">
-          <h3>Jirrassic | Hackathon Winner</h3>
-          <p>Built an AI-powered JIRA assistant using NLP and machine learning to automate ticket creation and improve project tracking efficiency.</p>
+          <h3>Jirrassic</h3>
+          <p>
+            Hackathon-winning smart ticketing solution that automates JIRA issue creation using
+            AI-based categorization and prioritization algorithms.
+          </p>
         </div>
       </div>
+
       <div class="project-card">
-        <img src="assets/careerbuddy.png" alt="Career Buddy project">
+        <img src="assets/careerbuddy.png" alt="Career Buddy Project" />
         <div class="project-content">
           <h3>Career Buddy</h3>
-          <p>Created a smart career analysis tool integrating LinkedIn APIs and AI to recommend top professionals and personalized career insights.</p>
+          <p>
+            AI-powered platform for job seekers integrating resume parsing, skill analysis, and
+            LinkedIn professional insights to prepare users for interviews efficiently.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact / Get in Touch -->
+  <div class="section-divider"></div>
+
+  <!-- Contact Section -->
   <section id="contact" class="section contact-wrap">
     <div class="contact-header">
-      <h2>Get In <span>Touch</span></h2>
-      <p>Have a project or idea? Let’s connect and bring it to life together.</p>
+      <h2><span>Get in Touch</span></h2>
+      <p>Feel free to reach out — I’d love to connect!</p>
     </div>
 
     <div class="contact-grid">
-      <!-- Left: Info -->
-      <div class="contact-info cardish">
+      <div class="cardish contact-info">
         <h3>Contact Information</h3>
-
         <div class="info-row">
-          <div class="pill-icon">✉️</div>
+          <div class="pill-icon">@</div>
           <div>
-            <div class="info-label">Email :</div>
+            <div class="info-label">Email</div>
             <div class="info-value"><a href="mailto:kenirucha21@gmail.com">kenirucha21@gmail.com</a></div>
           </div>
         </div>
-
         <div class="info-row">
           <div class="pill-icon">in</div>
           <div>
-            <div class="info-label">LinkedIn :</div>
-            <div class="info-value"><a href="https://www.linkedin.com/in/rucha-keni" target="_blank" rel="noreferrer">rucha-keni</a></div>
+            <div class="info-label">LinkedIn</div>
+            <div class="info-value"><a href="https://www.linkedin.com/in/rucha-keni" target="_blank">rucha-keni</a></div>
           </div>
         </div>
-
         <div class="info-row">
           <div class="pill-icon">📍</div>
           <div>
-            <div class="info-label">Location :</div>
+            <div class="info-label">Location</div>
             <div class="info-value">Charlotte, NC</div>
           </div>
         </div>
       </div>
 
-      <!-- Right: Form (Formspree) -->
-      <div class="contact-form cardish">
+      <div class="cardish contact-form">
         <h3>Send a Message</h3>
-        <form id="fs-form" action="https://formspree.io/f/xvgvgrae" method="POST">
-          <label>Your Name
-            <input type="text" name="name" placeholder="Your name..." required />
+        <form action="https://formspree.io/f/xvgvgrae" method="POST">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your Name" required />
           </label>
-
-          <label>Your Email
-            <input type="email" name="email" placeholder="you@example.com" required />
+          <label>
+            Email
+            <input type="email" name="_replyto" placeholder="Your Email" required />
           </label>
-
-          <label>Your Message
-            <textarea name="message" rows="5" placeholder="Hello! I'd like to talk about..." required></textarea>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
           </label>
-
-          <button type="submit" class="send-btn">Send Message ✈️</button>
-          <p id="fs-status" class="form-status" aria-live="polite"></p>
+          <button class="send-btn" type="submit">Send Message</button>
+          <p class="form-status"></p>
         </form>
       </div>
     </div>
   </section>
 
-  <footer>© <span id="year"></span> Rucha Keni</footer>
-  <script src="script.js"></script>
+  <footer>
+    <p>© 2025 Rucha Keni </p>
+  </footer>
 </body>
 </html>

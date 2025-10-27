@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rucha Keni | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
@@ -31,46 +30,50 @@
     <h1>Hi, I’m Rucha Keni 👋</h1>
     <p class="tagline">MS IT @ UNC Charlotte | QA Automation | Data Analytics | Business Analysis</p>
 
-    <!-- Social Icons -->
-    <div class="social-icons">
-      <a href="https://www.instagram.com/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/rucha-keni" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:rkeni1@charlotte.edu" class="icon"><i class="fas fa-envelope"></i></a>
-      <a href="https://github.com/rkeni" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+    <!-- Social Image Icons (keep your existing links; replace hrefs only if YOU want) -->
+    <div class="social-img-row">
+      <a class="circle" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+        <img src="assets/Insta.jpg" alt="Instagram">
+      </a>
+      <a class="circle" href="https://www.linkedin.com/in/rucha-keni" target="_blank" rel="noreferrer">
+        <img src="assets/LinkedIn.png" alt="LinkedIn">
+      </a>
+      <a class="circle" href="mailto:rkeni1@charlotte.edu">
+        <img src="assets/Gmail.png" alt="Gmail">
+      </a>
+      <a class="circle" href="https://github.com/rkeni" target="_blank" rel="noreferrer">
+        <img src="assets/Github.jpg.webp" alt="GitHub">
+      </a>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about" class="section">
     <h2>About Me</h2>
     <p class="about-text">
-      I’m <strong>Rucha Keni</strong>, a curious technologist and Master’s student in <strong>Information Technology</strong> at the
-      <strong>University of North Carolina at Charlotte</strong>. With over three years of experience in <strong>Quality Assurance and Automation</strong>,
-      I thrive at the intersection of precision, performance, and purpose — ensuring every line of code transforms into a seamless user experience.
+      I’m <strong>Rucha Keni</strong>, a curious tech enthusiast and Master’s student in <strong>Information Technology</strong> at the
+      <strong>University of North Carolina at Charlotte</strong>. Having over three years of experience in <strong>Quality Assurance and Automation</strong>,
+      I am most comfortable where accurancy, efficiency, and purpost intersect where every line of code translates into a seamless user experience.
     </p>
-
     <p class="about-text">
-      I’m passionate about connecting <strong>technology, data, and strategy</strong> to create systems that don’t just work — they work smarter.
-      My journey has taken me from testing large-scale financial applications at <strong>Capgemini</strong> to building automation pipelines
-      and analytical dashboards that uncover insights and improve product reliability.
+      I believe in bringing <strong>technology, data, and strategy</strong> together to make systems that don’t just work, they work smarter.
+      My journey has been from testing large-scale financial applications at <strong>Capgemini</strong> to developing automation frameworks
+      and analytical dashboards that unlock insights, improve product reliability and drive decision making.
     </p>
-
     <p class="about-text">
-      <strong>Quality Assurance & Automation:</strong> Driven by a detail-oriented mindset, I design and develop test frameworks using
-      <strong>Selenium, Appium, Postman, and Jenkins</strong> to deliver high-performing, error-free applications.
-      My experiences at <strong>Capgemini</strong> and <strong>BreatheIT Solutions</strong> taught me to see testing as more than finding bugs —
+      <strong>Quality Assurance & Automation:</strong> Detail-oriented and problem solver, I design and develop scalable test frameworks using
+      <strong>Selenium, Appium, Postman, and Jenkins</strong> to offer high-performing, defect-free applications.
+      My work experience at <strong>Capgemini</strong> and <strong>BreatheIT Solutions</strong> taught me to see testing isn't just about finding bugs,
       it’s about building trust in technology.
     </p>
-
     <p class="about-text">
-      <strong>Data Analytics & Engineering:</strong> Data tells stories — and I love translating them into decisions. Using
-      <strong>Python, SQL, Power BI, and Snowflake</strong>, I’ve developed dashboards and data pipelines that transform raw information
+      <strong>Data Analytics & Engineering:</strong> I believe that Data tells stories and I love translating them into decisions. Using
+      <strong>Python, SQL, Power BI, and Snowflake</strong>, I’ve developed interactive dashboards and data pipelines that transform raw information
       into actionable insights, supporting performance optimization and business growth.
     </p>
-
     <p class="about-text">
-      <strong>Business & Analytical Strategy:</strong> With a balance of technical depth and analytical curiosity, I bridge the gap between
-      business and technology. I focus on simplifying complexity — turning data patterns into strategies and aligning every solution with measurable business impact.
+      <strong>Business & Analytical Strategy:</strong> With technical aptitude and analytical passion merged, I bridge the gap between
+      technology solutions and business goals. My focus is to simplify complexity, translate patterns of data into clear cut strategies and align each solution with measurable business advantage.
     </p>
   </section>
 
@@ -95,7 +98,6 @@
           <p>Developed and tested a holistic lifestyle management app using Selenium, Appium, and FastAPI. Automated key workflows to ensure reliability and scalability.</p>
         </div>
       </div>
-
       <div class="project-card">
         <img src="assets/jirrassic.png" alt="Jirrassic project">
         <div class="project-content">
@@ -103,7 +105,6 @@
           <p>Built an AI-powered JIRA assistant using NLP and machine learning to automate ticket creation and improve project tracking efficiency.</p>
         </div>
       </div>
-
       <div class="project-card">
         <img src="assets/careerbuddy.png" alt="Career Buddy project">
         <div class="project-content">
@@ -114,14 +115,67 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:rkeni1@charlotte.edu">rkeni1@charlotte.edu</a></p>
-    <p>💼 <a href="https://www.linkedin.com/in/rucha-keni" target="_blank">LinkedIn</a></p>
+  <!-- Contact / Get in Touch -->
+  <section id="contact" class="section contact-wrap">
+    <div class="contact-header">
+      <h2>Get In <span>Touch</span></h2>
+      <p>Have a project or idea? Let’s connect and bring it to life together.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Left: Info -->
+      <div class="contact-info cardish">
+        <h3>Contact Information</h3>
+
+        <div class="info-row">
+          <div class="pill-icon">✉️</div>
+          <div>
+            <div class="info-label">Email :</div>
+            <div class="info-value"><a href="mailto:kenirucha21@gmail.com">kenirucha21@gmail.com</a></div>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <div class="pill-icon">in</div>
+          <div>
+            <div class="info-label">LinkedIn :</div>
+            <div class="info-value"><a href="https://www.linkedin.com/in/rucha-keni" target="_blank" rel="noreferrer">rucha-keni</a></div>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <div class="pill-icon">📍</div>
+          <div>
+            <div class="info-label">Location :</div>
+            <div class="info-value">Charlotte, NC</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form (Formspree) -->
+      <div class="contact-form cardish">
+        <h3>Send a Message</h3>
+        <form id="fs-form" action="https://formspree.io/f/xvgvgrae" method="POST">
+          <label>Your Name
+            <input type="text" name="name" placeholder="Your name..." required />
+          </label>
+
+          <label>Your Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>Your Message
+            <textarea name="message" rows="5" placeholder="Hello! I'd like to talk about..." required></textarea>
+          </label>
+
+          <button type="submit" class="send-btn">Send Message ✈️</button>
+          <p id="fs-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
   </section>
 
-  <footer>© 2025 Rucha Keni</footer>
+  <footer>© <span id="year"></span> Rucha Keni</footer>
   <script src="script.js"></script>
 </body>
 </html>

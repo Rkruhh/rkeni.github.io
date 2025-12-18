@@ -252,8 +252,73 @@
       grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     }
   }
+
+/* Modern skills cards */
+.skills-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.skills-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.skills-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
+}
+
+.skills-card-title {
+  text-align: center;
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.skills-pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.04);
+  color: #000;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.skill-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+body.dark .skill-pill {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+body:not(.dark) .skill-pill {
+  background: rgba(0, 0, 0, 0.04);
+  color: #000;
+}
   
-  /* ---------- Projects ---------- */
+  /* ---------- Projects ----------
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -287,7 +352,90 @@
     color: var(--muted);
     font-size: 0.95rem;
     text-align: justify;
+  } */
+
+/* ---------- Projects Section (Updated Design) ---------- */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
   }
+  
+  .project-card {
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--border);
+    max-width: 360px;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-content {
+    padding: 1.2rem;
+    text-align: left;
+  }
+  
+  .project-content h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-content p {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+  }
+  
+  .tech {
+    color: var(--primary);
+    font-style: italic;
+  }
+  
+  .github-link {
+    display: inline-block;
+    margin-top: 0.6rem;
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .github-link:hover {
+    text-decoration: underline;
+  }
+  
+  .view-more {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .view-more-btn {
+    background: var(--primary);
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .view-more-btn:hover {
+    background: #1a8cff;
+    transform: scale(1.05);
+  }  
+
+
   
   /* ---------- Contact / Get in Touch ---------- */
   .contact-wrap {

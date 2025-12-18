@@ -53,5 +53,30 @@ if (form) {
   });
 }
 
-// Footer year
+//Footer year
 document.getElementById('year').textContent = new Date().getFullYear();
+//   ===============================
+// // Theme Toggle (Dark / Light)
+// // ===============================
+// const toggle = document.getElementById("theme-toggle");
+
+// toggle.addEventListener("click", () => {
+//   document.body.classList.toggle("light-mode");
+//   toggle.textContent = document.body.classList.contains("light-mode") ? "🌞" : "🌙";
+// });
+
+// // ===============================
+// // Scroll Smooth for Internal Links
+// // ===============================
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//   anchor.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     const target = document.querySelector(this.getAttribute("href"));
+//     if (target) {
+//       target.scrollIntoView({
+//         behavior: "smooth",
+//         block: "start",
+//       });
+//     }
+//   });
+// });
